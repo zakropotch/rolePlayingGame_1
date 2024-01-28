@@ -2,6 +2,7 @@ Simple RPG game with locations, battles, shops, inventory, and win/lose conditio
 
 **Breakdown**
 xp, health, gold, currentWeapon - Track the player stats
+
 fighting - Tracks if player is in combat
 monsterHealth - Tracks current enemy health
 inventory - Tracks player inventory
