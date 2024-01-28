@@ -1,4 +1,4 @@
-Simple RPG game with locations, battles, shops, inventory, and win/lose conditions.
+*Simple RPG game with locations, battles, shops, inventory, and win/lose conditions.*
 
 **Breakdown**
 
@@ -26,15 +26,27 @@ locations - Defines locations, text, buttons
 
 
 update() - Updates current location UI
+
 goTown(), goStore(), goCave() - Change locations
+
 buyHealth(), buyWeapon() - Shop functions
+
 sellWeapon() - Sell weapons
+
 fightSlime(), etc - Start battles
+
 goFight() - Transition to fight scene
+
 attack() - Player attack logic
+
 getMonsterAttackValue() - Enemy attack logic
+
 dodge() - Player dodge
+
 defeatMonster() - Monster defeat logic
+
 lose() and winGame() - Win/lose logic
+
 restart() - Reset game state
+
 easterEgg(), pickTwo(), pickEight() - Easter egg game
